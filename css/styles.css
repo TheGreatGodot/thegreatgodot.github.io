@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  z-index: 1;
+  font-family: 'Arizonia', cursive;
+  font-size: 8rem;
+  color: #00334E;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  color: #00334E;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #BE7575;
+}
+
+hr {
+  position: relative;
+  margin: 65px auto 65px auto;
+  border-style: none;
+  border-top: 10px dotted #3A6351;
+  width: 13%;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+a {
+  color: #145374;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #9AD3BC;
+  border-radius: 10%;
+}
+
+footer {
+  background-color: #00334E;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.mountain {
+  position: relative;
+  height: 32rem;
+}
+
+.top-container {
+  background-color: #9AD3BC;
+  background-image: radial-gradient(ellipse at bottom,rgba(245, 180, 97, 0.9), transparent);
+  position: relative;
+  padding-top: 6%;
+  margin-bottom: 1.5%;
+}
+
+.subheading {
+  font-size: 1.75rem;
+  font-weight: normal;
+}
+
+.full-stack {
+  text-decoration: none; /* "none" bcz I don't like that span underlined --
+  text-decoration-thickness: 0.07em; */
+}
+
+.top-cloud {
+  position: absolute;
+  right: 23%;
+  top: 9%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 23%;
+  bottom: 50%;
+}
+
+.SkillPic1 {
+  border-radius: 15%;
+  float: left;
+  width: 20%;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
+
+.SkillPic2 {
+  border-radius: 15%;
+  float: right;
+  width: 20%;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 65px auto 65px auto;
+  text-align: left;
+  line-height: 2;
+  overflow: auto;
+}
+
+.jungle {
+  margin: 10px auto;
+}
+
+.emailme {
+  margin: 10px auto;
+}
+
+.footer-link {
+  color: #3A6351;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: auto 30px;
+}
+
+.iconcredit {
+  font-size: 0.8em;
+  margin-bottom: 0;
+  color: #606060;
+}
+
+.btn {
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  color: #BE7575;
+  font-family: 'Montserrat' sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  padding: 21px;
+  background-color: #00334E;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 25px auto 25px auto;
+}
+
+.btn:hover {
+  background: #9AD3BC;
+  border: none;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  text-decoration: none;
+}
